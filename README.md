@@ -14,7 +14,7 @@ Vous pouvez recommencer une nouvelle partie pendant que vous jouez en cliquant s
 
 ## Auteur
 
-Ce projet a été réalisé par DIISLAY (Testers7777) et aider par [GreenSky](https://github.com/Greensky-gs).
+Ce projet a été réalisé par DIISLAY (Testers7777) et aidé par [GreenSky](https://github.com/Greensky-gs).
 
 ## Licence
 
