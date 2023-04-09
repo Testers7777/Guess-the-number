@@ -24,11 +24,11 @@ function restartGame() {
 }
 function endGame() {
   storage.started = false;
-  storage.tries = 7;
+  storage.tries = document.getElementById('level')?.value || 7;
 }
 function win() {
   endGame();
-  write("Vous avez gagné avec " + storage.tries + " essaies !");
+  write(`Vous avez gagné avec ${storage.tries}  essaies !`);
 }
 function loose() {
   write(`Vous avez perdu, mon nombre était ${storage.number}`);
@@ -44,10 +44,10 @@ function guess() {
   if (input < 0 || input > 100) return write("Veuillez choisir un nombre entre 1 et 100");
   if (input < storage.number) {
     storage.tries--
-    write("Mon nombre est plus grand (" + storage.tries + ")");
+    write(`Mon nombre est plus grand (${storage.tries})`);
   } else if (input > storage.number) {
     storage.tries--;
-    write("Mon nombre est plus petit  (" + storage.tries + ")");
+    write(`Mon nombre est plus petit  (${storage.tries})`);
   } else {
     win();
   }
