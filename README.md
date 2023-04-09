@@ -4,7 +4,7 @@ Ce projet est un jeu javascript où l'utilisateur doit deviner un nombre choisi 
 
 ## Fonctionnalités
 
-- Possibilité de choisir entre 5 niveaux : 1 (3 essaies) | 2 (4 essaies) | 3 (5 essaies) | 4 (6 essaies) | 5 (7 essaies (auto))
+- Possibilité de choisir entre 5 niveaux : 1 (3 essaies) | 2 (4 essaies) | 3 (5 essaies) | 4 (6 essaies) | 5 [7 essaies (auto)]
 - Affichage d'un message indiquant si le nombre proposé est trop grand ou trop petit
 - Comptage du nombre de tentatives pour trouver le nombre
 - Affichage du nombre de tentatives une fois le nombre trouvé
