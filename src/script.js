@@ -23,10 +23,10 @@ function restartGame() {
   startGame()
 }
 function endGame() {
+  write(`Perdu ! Le nombre à trouver été ${storage.number}`)
   storage.started = false;
   storage.tries = 0;
   storage.number = 0;
-  write('')
 }
 function btnEndGame() {
   if (!storage.started) return alert("La partie n'a pas commencé");
