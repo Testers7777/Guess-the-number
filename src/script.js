@@ -49,7 +49,7 @@ function guess() {
   if (!storage.started) return alert("La partie n'a pas commencé");
 
   const input = parseInt(document.getElementById('guesshere')?.value);
-  if (!input || isNaN(input)) return write("Invalid number");
+  if (!input || isNaN(input)) return write("Nombre invalide");
 
   if (input < 0 || input > 100) return write("Veuillez choisir un nombre entre 1 et 100");
   if (input < storage.number) {
