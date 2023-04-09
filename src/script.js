@@ -24,7 +24,17 @@ function restartGame() {
 }
 function endGame() {
   storage.started = false;
-  storage.tries = document.getElementById('level')?.value || 7;
+  storage.tries = 0;
+  storage.number = 0;
+  write('')
+}
+function btnEndGame() {
+  if (!storage.started) return alert("La partie n'a pas commencé");
+  storage.started = false;
+  storage.tries = 0;
+  storage.number = 0;
+  alert('Partie arrêtée avec succès')
+  write('')
 }
 function win() {
   endGame();
