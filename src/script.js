@@ -34,7 +34,7 @@ const storage = {
     write('Partie arrêtée avec succès')
   }
   function win() {
-    write(`Vous avez gagné avec ${storage.tries}  essaies !`);
+    write(`Vous avez gagné avec ${storage.tries}  essaies restants !`);
     endGame()
   }
   function loose() {
